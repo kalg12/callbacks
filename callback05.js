@@ -10,5 +10,6 @@ const ejemplo = () => {
     saludar('Hola a todos');
 };
 
-console.log("Final");
+
 ejemplo();
+console.log("Final");

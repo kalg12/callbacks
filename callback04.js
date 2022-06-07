@@ -4,6 +4,6 @@ function saludar(nombre, callback) {
 }
 
 
-saludar("kevin", function(resultado) {
-    console.log(resultado);
+saludar("kevin", function(parametro) {
+    console.log(parametro);
 });
