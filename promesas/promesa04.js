@@ -1,6 +1,6 @@
 let saludar = new Promise((resolve, reject) => {
     //resolve("Hola mundo. Soy llamado desde una promesa");
-    reject();
+    //reject();
   });
 
   console.log("****************");
