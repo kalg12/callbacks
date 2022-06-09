@@ -1,13 +1,13 @@
-let mostrarComparacion = (some) => {
-    console.log(some);
+let mostrarComparacion = (algo) => {
+    console.log(algo);
   };
 
-  let myPromise = new Promise((myResolve, myReject) => {
-    let x = 3;
+  let myPromise = new Promise((resolucion, rechazo) => {
+    let x = 5;
     if (x !== 0) {
-      myResolve('OK');
+      resolucion('OK');
     } else {
-      myReject('Error');
+      rechazo('Error');
     }
   });
 

@@ -1,4 +1,4 @@
-const resolver = new Promise ((resolve,rejec) => {
+const resolver = new Promise ((resolve,reject) => {
     setTimeout(()=>{
         resolve("Hola mundo");
     }, 2000)
