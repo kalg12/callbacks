@@ -4,5 +4,5 @@ let saludar = (callback) => {
 }
 
 saludar((mensaje) => {
-    alert(mensaje)
+    console.log(mensaje)
 });

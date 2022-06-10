@@ -1,0 +1,26 @@
+{
+  "name": "ucampers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callback01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejercicio1": "node callback01.js",
+    "ejercicio2": "node callback02.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalg12/callbacks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalg12/callbacks/issues"
+  },
+  "homepage": "https://github.com/kalg12/callbacks#readme",
+  "dependencies": {
+    "cowsay2": "^2.0.4",
+    "github-pages-deploy-action": "^3.5.1"
+  }
+}
